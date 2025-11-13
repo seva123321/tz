@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.2s;
+}
+
+.card:hover {
+  background: #f9f9f9;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.login {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.url {
+  margin: 0.25rem 0 0;
+  color: #666;
+  font-size: 0.9rem;
+}
